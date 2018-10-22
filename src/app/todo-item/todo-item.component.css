@@ -1,0 +1,37 @@
+.todo-item {
+  padding: 10px 0;
+  border-top: solid 1px #ddd;
+  min-height: 30px;
+  line-height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-checkbox {
+  flex-shrink: 0;
+  margin: auto 1ex auto 0;
+}
+
+.todo-title {
+  flex-grow: 1;
+  padding-left: 11px;
+  font-family: 'Lucida Grande', Verdana, sans-serif;
+}
+
+button.btn.btn-red:hover {
+  background-color: tomato;
+  cursor: pointer;
+
+}
+
+button.btn.btn-red {
+  border-radius: 6px;
+  background-color: #19736d;
+  color: #fff;
+  box-shadow: 3px 3px 3px #e8e1e1;
+}
+
+.todo-complete {
+  text-decoration: line-through;
+}
+

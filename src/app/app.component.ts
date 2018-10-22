@@ -1,3 +1,4 @@
+import { TodoItem } from './interfaces/todo-item';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'todo-list';
+  title = 'My To Do List APP';
+
 }
